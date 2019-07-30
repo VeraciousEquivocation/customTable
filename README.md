@@ -9,4 +9,4 @@ A Product can have multiple Placements, and a Placement can have multiple Generi
 
 For convenience, total selected count is shown inside each respective column header.
 
-![Example Image](../assets/example.PNG?raw=true)
+![Example Image](../assets/example.gif?raw=true)
