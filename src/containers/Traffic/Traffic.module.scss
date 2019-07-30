@@ -1,0 +1,27 @@
+@import '../../Base.scss';
+
+.root {
+    // backgroundColor: theme.palette.background.paper,
+    flex-grow: 1;
+    min-height: '100%';
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.TrafficContentContainer {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-x: hidden;
+    margin:24px;
+}
+// .TrafficContentContainer_open_true {
+//     margin-right: -294px
+// }
+// .TrafficContentContainer_open_false {
+//     margin-right: 0
+// }

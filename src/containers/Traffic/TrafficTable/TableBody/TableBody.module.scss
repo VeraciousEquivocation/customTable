@@ -1,0 +1,39 @@
+@import '../../../../Base.scss';
+
+.column0 {
+    border-left: 1px solid $lightgrey;
+    text-transform: uppercase;
+}
+
+.emptyCreativeRow {
+    border-right: 1px solid $lightgrey;
+    border-bottom: 1px solid $lightgrey;
+    height: 36px;
+}
+
+.tableFlexRow {
+    flex-direction:row;
+    display:flex;
+}
+.tableFlexCol {
+    flex-direction:column;
+    display:flex;
+}
+.highlightSelected {
+    background-color: #0081C6!important;
+    color: #fff;
+}
+.productCell {
+    align-items:center;
+}
+.centerCellContent {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.trafficTableCell {
+    padding: 8px;
+    border-bottom: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    background-color: #fff;
+}
